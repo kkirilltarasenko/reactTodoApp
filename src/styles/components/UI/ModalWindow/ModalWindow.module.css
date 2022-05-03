@@ -1,0 +1,27 @@
+.todoModal {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+.todoModalContent {
+    min-width: 250px;
+    height: 100px;
+    background: ghostwhite;
+    border: 1px solid cornflowerblue;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todoModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

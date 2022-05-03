@@ -1,0 +1,33 @@
+.todo {
+    display: flex;
+    align-items: center;
+
+    width: 290px;
+    justify-content: space-between;
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(37, 148, 208, 0.87);
+    margin-bottom: 15px;
+}
+.todoUnShow {
+    display: none;
+}
+.todoId {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.todoBody {
+    color: #002764;
+
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.active {
+    color: slategrey;
+    text-decoration: line-through;
+
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+}

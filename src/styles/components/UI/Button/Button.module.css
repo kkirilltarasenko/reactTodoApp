@@ -1,0 +1,63 @@
+.SubmitButton {
+    width: 270px;
+
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+    border: 2px solid #4dc1ff;
+
+    margin: 10px 10px 120px 10px;
+    padding: 10px 40px;
+
+    cursor: pointer;
+
+    color: whitesmoke;
+
+    transition: color .2s linear;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 17px;
+
+    position: fixed;
+    bottom: 0;
+}
+.SubmitButton:hover {
+    color: cornflowerblue;
+    background: white;
+}
+.DeleteButton {
+    width: 28px;
+    height: 26px;
+
+    background: white;
+    border: none;
+
+    cursor: pointer;
+    color: #005bea;
+
+    border-radius: 5px;
+
+    transition: color .2s linear;
+}
+.DeleteButton:hover {
+    color: whitesmoke;
+    background: #005bea;
+}
+.CreateButton {
+    width: 41px;
+    height: 41px;
+
+    font-size: 25px;
+
+    background: none;
+    border: 2px solid teal;
+    color: teal;
+
+    transition: color .2s linear;
+
+    cursor: pointer;
+}
+.CreateButton:hover {
+    color: whitesmoke;
+    background: teal;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+.App {
+    width: 420px;
+    height: 561px;
+
+    margin: 50px auto 0;
+
+    background: inherit;
+    border-radius: 25px;
+
+    -webkit-box-shadow: 0 0 64px 8px rgba(34, 60, 80, 0.4);
+    -moz-box-shadow: 0 0 64px 8px rgba(34, 60, 80, 0.4);
+    box-shadow: 0 0 64px 8px rgba(34, 60, 80, 0.4);
+}
+.appIntro {
+    position: relative;
+    width: 420px;
+    height: 80px;
+}
+.app-title {
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    color: ghostwhite;
+    padding: 30px 0 21px 40px;
+}
+.appBackground {
+    width: 420px;
+    object-fit: cover;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px 25px 0 0;
+    z-index: 1;
+}
+.item-enter {
+    opacity: 0;
+}
+.item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.item-exit {
+    opacity: 1;
+}
+.item-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}

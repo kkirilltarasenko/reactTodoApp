@@ -1,0 +1,17 @@
+.todoList {
+    display: flex;
+    flex-direction: column;
+
+    width: 320px;
+    height: 290px;
+
+    overflow: auto;
+    margin: 20px auto;
+}
+.alert {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+    color: teal;
+}

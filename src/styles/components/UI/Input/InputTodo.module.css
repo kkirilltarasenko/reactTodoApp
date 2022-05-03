@@ -1,0 +1,10 @@
+.inputTodo {
+    width: 150px;
+    height: 41px;
+    border-color: cornflowerblue;
+    padding: 10px 25px;
+    color: cornflowerblue;
+}
+.inputTodo::placeholder {
+    color: cornflowerblue;
+}
